@@ -8,12 +8,12 @@ import { Link } from "react-router-dom"
 
 
 //sample images for cover page
-import {GradArray} from "../Images/Graduation/imageImporter" //Grda
-import {soccerImg} from '../Images/Soccer/imageImporter'
+import { GradArray } from "../Images/Graduation/imageImporter" //Grda
+import { soccerImg } from '../Images/Soccer/imageImporter'
 import { BK } from "../Images/Basketball/imageImporter"; //Basketball
 import { VArray } from "../Images/VolleyBall/imageImporter"; //Volleyball
 import { FArray } from "../Images/FootBall/imageImporter"; //Football
-import {ProfArray} from "../Images/Proffessional/imageImporter"
+import { ProfArray } from "../Images/Professional/imageImporter"
 
 function Home() {
     // Turn image object into usable array of { value, img }
@@ -79,7 +79,7 @@ function Home() {
 
                 <div className=" flex justify-center h-auto m-7 gap-3 ">
 
-                       <div className=" w-full text-center h-auto relative overflow-hidden cursor-pointer">
+                    <div className=" w-full text-center h-auto relative overflow-hidden cursor-pointer">
                         <img src={soccerImg[39]} className=" w-full object-cover lg:h-90 md:h-60  sm:h-20 rounded-xl " />
 
                         <Link
@@ -127,7 +127,7 @@ function Home() {
 
 
             </section>
-           
+
             {/* Photography */}
             <section className="bg-gradient-to-b from-purple-200 to-white py-16 flex flex-col justify-center items-center overflow-auto">
 
