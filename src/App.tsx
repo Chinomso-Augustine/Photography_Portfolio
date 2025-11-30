@@ -6,10 +6,10 @@ import ContactForm from './components/Home/contactForm';
 import Soccer from './components/Pages/Soccer.js';
 import Graduation from './components/Pages/Graduation';
 
-import Basketball from './components/Pages/Basketball';
-import Volleyball from './components/Pages/Volleyball';
+import Basketball from './components/Pages/basketball';
+import Volleyball from './components/Pages/volleyball';
 import Football from './components/Pages/Football'; 
-import Professional from './components/Pages/Professional'
+import Professional from './components/Pages/professional'
 
 function App() {
   return (
