@@ -1,5 +1,4 @@
-import * as react from 'react';
-import BgPic from "../../../dist/assets/Chicago-CkhXL9rw.JPG"
+import BgPic from "./Chicago-CkhXL9rw.JPG";
 
 function About() {
     return (
