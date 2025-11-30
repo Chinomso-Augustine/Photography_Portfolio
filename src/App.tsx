@@ -6,7 +6,7 @@ import ContactForm from './components/Home/contactForm';
 import Soccer from './components/Pages/Soccer.js';
 import Graduation from './components/Pages/Graduation';
 
-import BasketBall from "./components/Pages/Basketball"
+import BasketBall from './components/Pages/Basketball';
 import VolleyBall from './components/Pages/Volleyball';
 import Football from './components/Pages/Football'; 
 import Professional from './components/Pages/Professional'
