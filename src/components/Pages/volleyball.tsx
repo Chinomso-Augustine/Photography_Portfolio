@@ -1,4 +1,3 @@
-import * as React from "react";
 
 //1. Import all soccer images as object
 import { VArray } from "../Images/VollF/vollImport"

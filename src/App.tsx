@@ -22,8 +22,7 @@ function App() {
         <Route path='/Soccer' element={<Soccer />} />
         <Route path='/Graduation' element={<Graduation />} />
         <Route path='/Basketball' element={<Basketball />} />
-        <Route path='/VolleyBall' element={<Volleyball />} />
-        <Route path='/Football' element={<Football />} />
+        <Route path='/Volleyball' element={<Volleyball />} />
         <Route path='/Football' element={<Football />} />
         <Route path='/Professional' element={<Professional/>} />
 
