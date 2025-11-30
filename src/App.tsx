@@ -6,8 +6,8 @@ import ContactForm from './components/Home/contactForm';
 import Soccer from './components/Pages/Soccer.js';
 import Graduation from './components/Pages/Graduation';
 
-import BasketBall from './components/Pages/Basketball';
-import VolleyBall from './components/Pages/Volleyball';
+import Basketball from './components/Pages/Basketball';
+import Volleyball from './components/Pages/Volleyball';
 import Football from './components/Pages/Football'; 
 import Professional from './components/Pages/Professional'
 
@@ -21,8 +21,8 @@ function App() {
         <Route path='/ContactForm' element={<ContactForm />} />
         <Route path='/Soccer' element={<Soccer />} />
         <Route path='/Graduation' element={<Graduation />} />
-        <Route path='/Basketball' element={<BasketBall />} />
-        <Route path='/VolleyBall' element={<VolleyBall />} />
+        <Route path='/Basketball' element={<Basketball />} />
+        <Route path='/VolleyBall' element={<Volleyball />} />
         <Route path='/Football' element={<Football />} />
         <Route path='/Football' element={<Football />} />
         <Route path='/Professional' element={<Professional/>} />
