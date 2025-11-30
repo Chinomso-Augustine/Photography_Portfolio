@@ -5,7 +5,7 @@ import { GradArray } from "../Images/Graduation/imageImporter.tsx";
 
 function Grad() {
 
-    //2. Convert object into array 
+    //2. Convert object into arrays 
     const pics = GradArray;
 
 
