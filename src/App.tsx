@@ -5,10 +5,10 @@ import About from './components/Aboutme/About.js'
 import ContactForm from './components/Home/contactForm.js';
 import Soccer from './components/Pages/Soccer.js';
 import Graduation from './components/Pages/Graduation.js';
-import BasketBall from './components/Pages/basketball.js';
-import VolleyBall from './components/Pages/volleyball.js';
+import BasketBall from './components/Pages/Basketball.js';
+import VolleyBall from './components/Pages/Volleyball.js';
 import Football from './components/Pages/Football.js'; 
-import Professional from './components/Pages/professional.js'
+import Professional from './components/Pages/Professional.js'
 
 function App() {
   return (
