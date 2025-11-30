@@ -1,7 +1,7 @@
 import * as React from "react";
 
 //1. Import all soccer images as object
-import {soccerImg} from "../Images/Soccer/imageImporter.tsx"
+import {soccerImg} from "../Images/Soccer/imageImporter"
 
 function Sports() {
 
