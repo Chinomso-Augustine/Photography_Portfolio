@@ -3,16 +3,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { Link } from "react-router-dom";
-import {homePics} from "../Images/Pictures/index"
+import { homePics } from "../Images/Pictures/index"
 
 //sample images for cover page
-import { GradArray } from "../Images/Graduation/imageImporter" //Grda
-import { soccerImg } from '../Images/Soccer/imageImporter'
-import { BK } from "../Images/Basketball/imageImporter"; //Basketball
-import { VArray } from "../Images/VolleyBall/imageImporter"; //Volleyball
-import { FArray } from "../Images/FootBall/imageImporter"; //Football
-import { ProfArray } from "../Images/Professional/imageImporter"
-import {  } from "../Images/Pictures";
+import { GradArray } from "../Images/GradF/gradImport" //Grda
+import { soccerImg } from '../Images/SoccF/socImport'
+import { BK } from "../Images/BaskF/bkImport"; //Basketball
+import { VArray } from "../Images/VollF/vollImport"; //Volleyball
+import { FArray } from "../Images/FootBall/footImport"; //Football
+import { ProfArray } from "../Images/ProfF/profImport"
+import { } from "../Images/Pictures";
 
 function Home() {
     // Turn image object into usable array of { value, img }

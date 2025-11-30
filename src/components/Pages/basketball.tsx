@@ -1,11 +1,11 @@
 
 //1. Import all soccer images as object
-import {BK} from "../Images/Basketball/imageImporter"
+import { BK } from "../Images/BaskF/bkImport"
 
 function BasketBall() {
 
     //2. Convert object into array 
-    const pics =BK;
+    const pics = BK;
 
 
     return (

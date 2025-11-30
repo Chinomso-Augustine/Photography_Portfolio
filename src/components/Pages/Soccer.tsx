@@ -1,17 +1,17 @@
 //1. Import all soccer images as object
-import {soccerImg} from "../Images/Soccer/imageImporter"
+import { soccerImg } from "../Images/SoccF/socImport"
 
 function Sports() {
 
-    const pics = soccerImg; 
-    
+    const pics = soccerImg;
+
     return (
         <div className="pt-20 bg-green-100">
             <div className="grid grid-cols-4 gap-1">
-                {pics.map((img, index)=>(
-                    
-                    <img src={img} className=" w-full h-auto object-cover"/>               
-                    
+                {pics.map((img, index) => (
+
+                    <img src={img} className=" w-full h-auto object-cover" />
+
                 ))}
             </div>
         </div>
