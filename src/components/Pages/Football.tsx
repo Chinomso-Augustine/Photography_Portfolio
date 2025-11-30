@@ -5,7 +5,7 @@ import { FArray } from "../Images/FootBall/imageImporter";
 function FootBall() {
 
     //2. Convert object into array 
-    const pics = Object.values(FArray);
+    const pics = FArray;
 
 
     return (
