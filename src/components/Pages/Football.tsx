@@ -1,7 +1,6 @@
-import * as React from "react";
 
 //1. Import all soccer images as object
-import { FArray } from "../Images/FootBall/imageImporter.tsx";
+import { FArray } from "../Images/FootBall/imageImporter";
 
 function FootBall() {
 

@@ -1,7 +1,7 @@
 import * as React from "react";
 
 //1. Import all soccer images as object
-import { GradArray } from "../Images/Graduation/imageImporter.tsx";
+import { GradArray } from "../Images/Graduation/imageImporter";
 
 function Grad() {
 
