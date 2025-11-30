@@ -1,0 +1,2 @@
+
+Spent hrs trying to figure out why code was displaying just white page just to find out that I forgot to import react in main.jsx
