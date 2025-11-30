@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from "./components/Home/home.js"
-import Navbar from './components/Home/Navbar.js'
-import About from './components/Aboutme/About.js'
-import ContactForm from './components/Home/contactForm.js';
+import Home from "./components/Home/home"
+import Navbar from './components/Home/Navbar'
+import About from './components/Aboutme/About'
+import ContactForm from './components/Home/contactForm';
 import Soccer from './components/Pages/Soccer.js';
-import Graduation from './components/Pages/Graduation.js';
+import Graduation from './components/Pages/Graduation';
 
-import BasketBall from "./components/Pages/Basketball.js"
-import VolleyBall from './components/Pages/volleyball.js';
-import Football from './components/Pages/Football.js'; 
-import Professional from './components/Pages/professional.js'
+import BasketBall from "./components/Pages/Basketball"
+import VolleyBall from './components/Pages/Volleyball';
+import Football from './components/Pages/Football'; 
+import Professional from './components/Pages/Professional'
 
 function App() {
   return (
