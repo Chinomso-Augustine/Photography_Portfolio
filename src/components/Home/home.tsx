@@ -1,11 +1,9 @@
-"use client";
 import * as React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import * as SamplePics from "../Images/Pictures";
-import { Link } from "react-router-dom"
-
+import { Link } from "react-router-dom";
+import {homePics} from "../Images/Pictures/index"
 
 //sample images for cover page
 import { GradArray } from "../Images/Graduation/imageImporter" //Grda
@@ -14,6 +12,7 @@ import { BK } from "../Images/Basketball/imageImporter"; //Basketball
 import { VArray } from "../Images/VolleyBall/imageImporter"; //Volleyball
 import { FArray } from "../Images/FootBall/imageImporter"; //Football
 import { ProfArray } from "../Images/Professional/imageImporter"
+import {  } from "../Images/Pictures";
 
 function Home() {
     // Turn image object into usable array of { value, img }
@@ -25,7 +24,7 @@ function Home() {
     };
 
     {/**Tells image to use imageitem format  */ }
-    const Images: ImageItem[] = Object.entries(SamplePics).map(([name, img]) => ({
+    const Images: ImageItem[] = Object.entries(homePics).map(([name, img]) => ({
         value: name,
         img: img as string, /**typescript expect image to be unknown so specified it explicitly as string cuz that's what I want */
     }));
