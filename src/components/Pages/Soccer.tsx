@@ -1,5 +1,5 @@
 //1. Import all soccer images as object
-import { soccerImg } from "../Images/SoccF"
+import { soccerImg } from "../Images/SoccF/index"
 
 function Sports() {
 

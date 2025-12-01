@@ -1,5 +1,5 @@
 //1. Import all soccer images as object
-import { ProfArray } from "../Images/ProfF";
+import { ProfArray } from "../Images/ProfF/index";
 
 function Prof() {
 

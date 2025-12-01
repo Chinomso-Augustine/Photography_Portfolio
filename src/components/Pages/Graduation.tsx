@@ -1,5 +1,5 @@
 //1. Import all soccer images as object
-import { GradArray } from "../Images/GradF";
+import { GradArray } from "../Images/GradF/index";
 
 function Grad() {
 
