@@ -1,6 +1,6 @@
 
 //1. Import all soccer images as object
-import { VArray } from "../Images/VollF/index"
+import { VArray } from "../Images/VollF"
 
 function VBall() {
 
