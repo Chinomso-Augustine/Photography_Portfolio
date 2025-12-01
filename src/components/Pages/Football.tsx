@@ -1,6 +1,6 @@
 
 //1. Import all soccer images as object
-import { FArray } from "../Images/FootBall/footImport";
+import { FArray } from "../Images/FootBall";
 
 function FootBall() {
 

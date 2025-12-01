@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 import { homePics } from "../Images/Pictures/index"
 
 //sample images for cover page
-import { GradArray } from "../Images/GradF/gradImport" //Grda
-import { soccerImg } from '../Images/SoccF/socImport'
-import { BK } from "../Images/BaskF/bkImport"; //Basketball
-import { VArray } from "../Images/VollF/vollImport"; //Volleyball
-import { FArray } from "../Images/FootBall/footImport"; //Football
-import { ProfArray } from "../Images/ProfF/profImport"
+import { GradArray } from "../Images/GradF" //Grda
+import { soccerImg } from '../Images/SoccF'
+import { BK } from "../Images/BaskF"; //Basketball
+import { VArray } from "../Images/VollF"; //Volleyball
+import { FArray } from "../Images/FootBall"; //Football
+import { ProfArray } from "../Images/ProfF"
 import { } from "../Images/Pictures";
 
 function Home() {

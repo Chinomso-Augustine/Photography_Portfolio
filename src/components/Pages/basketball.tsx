@@ -1,6 +1,6 @@
 
 //1. Import all soccer images as object
-import { BK } from "../Images/BaskF/bkImport"
+import { BK } from "../Images/BaskF"
 
 function BasketBall() {
 
