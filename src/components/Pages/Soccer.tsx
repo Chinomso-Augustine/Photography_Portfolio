@@ -6,7 +6,7 @@ function Sports() {
     const pics = soccerImg;
 
     return (
-        
+
         <div className="pt-20 bg-green-100">
             <div className="grid grid-cols-4 gap-1">
                 {pics.map((img, index) => (
