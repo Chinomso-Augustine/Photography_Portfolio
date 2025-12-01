@@ -3,7 +3,7 @@ import Home from "./components/Home/home"
 import Navbar from './components/Home/Navbar'
 import About from './components/Aboutme/About'
 import ContactForm from './components/Home/contactForm';
-import Soccer from './components/Pages/Soccer.js';
+import Soccer from './components/Pages/Soccer';
 import Graduation from './components/Pages/Graduation';
 
 import Basketball from './components/Pages/basketball';
