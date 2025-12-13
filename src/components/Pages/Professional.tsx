@@ -1,4 +1,4 @@
-//1. Import all soccer images as object
+//1. Import all images as object
 import { ProfArray } from "../Images/ProfF";
 
 function Prof() {
@@ -8,10 +8,12 @@ function Prof() {
 
 
     return (
-        <div className="pt-20 h-auto bg-gray-200">
-            <div className=" border border-red-400 grid grid-cols-3 gap-1 ">
+        <div className="pt-20 h-auto bg-gray-200 px-4">
+            <div className=" border border-red-400 grid grid-cols-3 gap-4">
                 {pics.map((img, index) => (
-                    <img src={img} className="w-full h-auto m-full object-fit " />
+                    <div key={index} className="overflow-hidden rounded-lg shadow-sm hover:shadow-lg transform hover:-translate-y-0.5 transition">
+                        <img src={img} className="w-full h-auto object-cover block" alt={`professional-${index}`} />
+                    </div>
                 ))}
             </div>
         </div>

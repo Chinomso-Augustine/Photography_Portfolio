@@ -33,26 +33,28 @@ function Sports() {
     const getLoadingAttr = (index: number) => (index < INITIAL_COUNT ? "eager" : "lazy");
 
     return (
-        <div className="pt-20 bg-green-100 px-4">
-            {/* Use CSS multi-column (masonry-like) layout. Tailwind provides `columns-` utilities if configured. */}
-            <div className="columns-2 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
-                {pics.slice(0, visibleCount).map((img, index) => (
-                    <div
-                        key={index}
-                        style={{ breakInside: "avoid" }}
-                        className="mb-2 overflow-hidden rounded-lg"
-                    >
-                        <img
-                            src={img}
-                            alt={`soccer-${index}`}
-                            className="w-full h-auto block object-cover"
-                            loading={getLoadingAttr(index) as "lazy" | "eager"}
-                        />
-                    </div>
-                ))}
+        <div className="pt-20 bg-gray-50 px-4 min-h-screen">
+            <div className="max-w-5xl mx-auto">
+                {/* Use CSS multi-column (masonry-like) layout. Tailwind provides `columns-` utilities if configured. */}
+                <div className="columns-2 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
+                    {pics.slice(0, visibleCount).map((img, index) => (
+                        <div
+                            key={index}
+                            style={{ breakInside: "avoid" }}
+                            className="mb-4 overflow-hidden rounded-lg shadow-sm hover:shadow-lg transform hover:-translate-y-0.5 transition"
+                        >
+                            <img
+                                src={img}
+                                alt={`soccer-${index}`}
+                                className="w-full h-auto block object-cover"
+                                loading={getLoadingAttr(index) as "lazy" | "eager"}
+                            />
+                        </div>
+                    ))}
 
-                {/* sentinel triggers loading next chunk when it comes into view */}
-                <div ref={sentinelRef} style={{ height: 1 }} />
+                    {/* sentinel triggers loading next chunk when it comes into view */}
+                    <div ref={sentinelRef} style={{ height: 1 }} />
+                </div>
             </div>
         </div>
     );
