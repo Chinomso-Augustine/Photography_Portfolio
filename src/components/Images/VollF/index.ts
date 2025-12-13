@@ -15,7 +15,7 @@ import V9 from "./V9.JPG"
 import V10 from "./V10.JPG"
 import V11 from "./V11.JPG"
 import V12 from "./V12.JPG"
-import V13 from "./V13.JPG"
+import V13 from "./v13.JPG"
 
 
 import V14 from "./V14.JPG"
@@ -24,7 +24,7 @@ import V16 from "./V16.JPG"
 import V17 from "./V17.JPG"
 
 import V18 from "./V18.JPG"
-import V19 from "./V19.JPG"
+import V19 from "./v19.JPG"
 import V20 from "./V20.JPG"
 import V21 from "./V21.JPG"
 import V22 from "./V22.JPG"
