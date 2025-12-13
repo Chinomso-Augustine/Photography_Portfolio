@@ -44,3 +44,57 @@ src/components/Images/
 assets/
 images/
 photos/
+
+# Allow committed graduation images used by the app
+!src/components/Images/GradF/
+!src/components/Images/GradF/*.JPG
+!src/components/Images/GradF/*.JPEG
+!src/components/Images/GradF/*.jpg
+!src/components/Images/GradF/*.jpeg
+!src/components/Images/GradF/*.PNG
+!src/components/Images/GradF/*.png
+
+# Allow committed professional images used by the app
+!src/components/Images/ProfF/
+!src/components/Images/ProfF/*.JPG
+!src/components/Images/ProfF/*.JPEG
+!src/components/Images/ProfF/*.jpg
+!src/components/Images/ProfF/*.jpeg
+!src/components/Images/ProfF/*.PNG
+!src/components/Images/ProfF/*.png
+
+# Allow committed pictures images used by the app
+!src/components/Images/Pictures/
+!src/components/Images/Pictures/*.JPG
+!src/components/Images/Pictures/*.JPEG
+!src/components/Images/Pictures/*.jpg
+!src/components/Images/Pictures/*.jpeg
+!src/components/Images/Pictures/*.PNG
+!src/components/Images/Pictures/*.png
+
+# Allow committed basketball images used by the app
+!src/components/Images/BaskF/
+!src/components/Images/BaskF/*.JPG
+!src/components/Images/BaskF/*.JPEG
+!src/components/Images/BaskF/*.jpg
+!src/components/Images/BaskF/*.jpeg
+!src/components/Images/BaskF/*.PNG
+!src/components/Images/BaskF/*.png
+
+# Allow committed football images used by the app
+!src/components/Images/FootBall/
+!src/components/Images/FootBall/*.JPG
+!src/components/Images/FootBall/*.JPEG
+!src/components/Images/FootBall/*.jpg
+!src/components/Images/FootBall/*.jpeg
+!src/components/Images/FootBall/*.PNG
+!src/components/Images/FootBall/*.png
+
+# Allow committed soccer images used by the app
+!src/components/Images/SoccF/
+!src/components/Images/SoccF/*.JPG
+!src/components/Images/SoccF/*.JPEG
+!src/components/Images/SoccF/*.jpg
+!src/components/Images/SoccF/*.jpeg
+!src/components/Images/SoccF/*.PNG
+!src/components/Images/SoccF/*.png
