@@ -98,3 +98,12 @@ photos/
 !src/components/Images/SoccF/*.jpeg
 !src/components/Images/SoccF/*.PNG
 !src/components/Images/SoccF/*.png
+
+# Allow committed volleyball images used by the app
+!src/components/Images/VollF/
+!src/components/Images/VollF/*.JPG
+!src/components/Images/VollF/*.JPEG
+!src/components/Images/VollF/*.jpg
+!src/components/Images/VollF/*.jpeg
+!src/components/Images/VollF/*.PNG
+!src/components/Images/VollF/*.png
