@@ -1,7 +1,4 @@
 import * as React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, } from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
 import { Link } from "react-router-dom";
 import { homePics } from "../Images/Pictures/index"
 
@@ -15,25 +12,6 @@ import { ProfArray } from "../Images/ProfF"
 import { } from "../Images/Pictures";
 
 function Home() {
-    // Turn image object into usable array of { value, img }
-    {/**Declaring type of img object first  */ }
-
-    type ImageItem = {
-        value: string;
-        img: string;
-    };
-
-    {/**Tells image to use imageitem format  */ }
-    const Images: ImageItem[] = Object.entries(homePics).map(([name, img]) => ({
-        value: name,
-        img: img as string, /**typescript expect image to be unknown so specified it explicitly as string cuz that's what I want */
-    }));
-
-    const autoplayPlugin = React.useRef(
-        Autoplay({ delay: 4000, stopOnInteraction: false })
-    );
-
-
     return (
         <div>
             <section className="py-30 z-60 bg-gradient-to-bl from-purple-800 via-purple-800 to-indigo-800">
@@ -123,39 +101,7 @@ function Home() {
                     </div>
                 </div>
 
-
-
             </section>
-
-            {/* Photography */}
-            <section className="bg-gradient-to-b from-purple-200 to-white py-16 flex flex-col justify-center items-center overflow-auto">
-
-
-                <div className="flex justify-center w-full px-4">
-                    <Carousel plugins={[autoplayPlugin.current]} className="w-full max-w-5xl h-full max-h-5xl border m-12">
-                        <CarouselContent>
-                            {Images.map((image, index) => (
-                                <CarouselItem key={index} className="basis-1/2 md:basis-1/2 lg:basis-1/3 p-2 ">
-                                    <Card className="h-[530px] flex flex-col justify-between">
-
-                                        <CardContent className="flex items-center justify-center flex-grow">
-                                            <img
-                                                src={image.img}
-                                                className="w-full h-full object-cover rounded-md text-center"
-                                                alt={image.value}
-                                            />
-                                        </CardContent>
-                                    </Card>
-                                </CarouselItem>
-                            ))}
-                        </CarouselContent>
-                        <CarouselPrevious />
-                        <CarouselNext />
-                    </Carousel>
-                </div>
-            </section>
-
-
 
             {/* Footer */}
 
