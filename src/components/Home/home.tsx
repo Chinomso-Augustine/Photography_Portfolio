@@ -1,6 +1,4 @@
-import * as React from "react";
 import { Link } from "react-router-dom";
-import { homePics } from "../Images/Pictures/index"
 
 //sample images for cover page
 import { GradArray } from "../Images/GradF" //Grda
@@ -15,8 +13,8 @@ import Footer from "../Common/Footer";
 function Home() {
     return (
         <div className="min-h-screen bg-gray-50">
-            <div className="max-w-5xl mx-auto px-4">
-                <section className="py-20 z-60 bg-gradient-to-bl from-purple-800 via-purple-800 to-indigo-800 rounded-lg">
+            <div className="max-w-full ">
+                <section className="py-20 z-60 bg-gradient-to-bl from-purple-800 via-purple-800 to-indigo-800">
                     <div className="text-center text-purple-100">
                         <h1 className="text-4xl md:text-6xl font-bold">
                             Chinomso Augustine

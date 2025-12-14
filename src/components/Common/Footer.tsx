@@ -1,9 +1,8 @@
-import React from "react";
 
 export default function Footer() {
     return (
-        <footer className="bg-gradient-to-r from-purple-800 to-indigo-900 text-white">
-            <div className="max-w-5xl mx-auto py-8 px-4">
+        <footer className="  bg-gradient-to-r from-purple-800 to-indigo-900 text-white">
+            <div className="max-w-full mx-auto py-8 px-4">
                 <h2 className="text-center text-2xl font-semibold mb-4">Connect on social</h2>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">

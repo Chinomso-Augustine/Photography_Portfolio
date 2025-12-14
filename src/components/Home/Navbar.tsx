@@ -14,7 +14,7 @@ function Navbar() {
     ];
 
     return (
-        <nav className="fixed w-full z-50 bg-purple-900 text-white shadow-md">
+        <nav className="fixed w-full z-50 bg-purple-900 text-white shadow-md ">
             <div className="flex items-center justify-between h-16 px-6">
 
                 {/* Desktop nav links - hidden on small screens */}

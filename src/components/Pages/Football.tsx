@@ -27,14 +27,12 @@ function FootBall() {
     return (
         <div className="pt-20 h-auto bg-gray-50 px-4 min-h-screen">
             <div className="max-w-5xl mx-auto">
-                <div className="columns-2 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
+                <div className="columns-2 sm:columns-2 md:columns-3 lg:columns-4 gap-2">
                     {pics.slice(0, visibleCount).map((img, index) => (
                         <div key={index} style={{ breakInside: "avoid" }} className="mb-4 overflow-hidden rounded-lg shadow-sm hover:shadow-lg transform hover:-translate-y-0.5 transition">
-                            <div style={{ aspectRatio: '4/3' }} className="relative w-full bg-gray-100">
+                            <div className="relative w-full bg-gray-100">
                                 <img src={img} alt={`football-${index}`} className="w-full h-full object-cover block" loading={index < INITIAL_COUNT ? "eager" : "lazy"} />
-                                <div className="absolute inset-0 flex items-end p-3 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition">
-                                    <span className="text-white text-sm">{String(img).split('/').pop()}</span>
-                                </div>
+                               
                             </div>
                         </div>
                     ))}
