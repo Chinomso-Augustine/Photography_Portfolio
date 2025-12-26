@@ -1,4 +1,3 @@
-import BgPic from "./Profile.JPG";
 import Footer from "../Common/Footer";
 
 function About() {
@@ -12,8 +11,8 @@ function About() {
                     {/**photo first on stacked layouts */}
                     <div className='w-full lg:w-1/2 rounded-2xl overflow-hidden flex items-center justify-center'>
                         <img
-                            src={BgPic}
-                            srcSet={`${BgPic} 1x, ${BgPic} 2x`}
+                            src="/images/Profile.JPG"
+                            srcSet="/images/Profile.JPG 1x, /images/Profile.JPG 2x"
                             sizes="(min-width: 1024px) 50vw, 100vw"
                             alt="Head shot - photo by Chinomso Augustine"
                             className="w-full h-full object-cover rounded-2xl"
