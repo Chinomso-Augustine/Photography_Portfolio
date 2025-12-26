@@ -15,7 +15,7 @@ function About() {
                             src={BgPic}
                             srcSet={`${BgPic} 1x, ${BgPic} 2x`}
                             sizes="(min-width: 1024px) 50vw, 100vw"
-                            alt="Chicago skyline - photo by Chinomso Augustine"
+                            alt="Head shot - photo by Chinomso Augustine"
                             className="w-full h-full object-cover rounded-2xl"
                             style={{ minHeight: 280 }}
                             loading="eager"
