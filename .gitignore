@@ -107,3 +107,12 @@ photos/
 !src/components/Images/VollF/*.jpeg
 !src/components/Images/VollF/*.PNG
 !src/components/Images/VollF/*.png
+
+# Allow committed public images used by the app
+!public/images/
+!public/images/*.JPG
+!public/images/*.JPEG
+!public/images/*.jpg
+!public/images/*.jpeg
+!public/images/*.PNG
+!public/images/*.png
