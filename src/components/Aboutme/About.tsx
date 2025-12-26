@@ -1,4 +1,4 @@
-import BgPic from "./Chicago-CkhXL9rw.JPG";
+import BgPic from "./Profile.JPG";
 import Footer from "../Common/Footer";
 
 function About() {
