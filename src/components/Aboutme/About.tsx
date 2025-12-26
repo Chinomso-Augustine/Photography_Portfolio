@@ -25,13 +25,13 @@ function About() {
                         <h1 className="text-2xl font-bold mb-4 text-purple-950">About Chinomso</h1>
 
                         <p className="mb-4">
-                            Chinomso Augustine is a 3rd-year Computer Science
-                            student at UC Davis with a strong interest in front-end and design.
+                            Chinomso Augustine is a 3rd-year Design Major and Computer Science Minor
+                            at UC Davis with a strong interest in UI/UX and Web Development.
                             Alongside his studies, he has developed a deep passion for photography as a way
-                            to capture and share meaningful stories.
+                            to capture and reminisce meaningful moments.
                         </p>
                         <p>
-                            Chinomso enjoys photography skills includes sports, graduations, portraits, nature and other forms. To him, every picture is more than
+                            Chinomso's photography skills includes sports, graduations, portraits, nature and other forms. To him, every picture is more than
                             just an image; it is a memory worth preserving. He believes that every moment
                             counts, and his goal is to create photos that allow people to relive those
                             experiences for years to come.
